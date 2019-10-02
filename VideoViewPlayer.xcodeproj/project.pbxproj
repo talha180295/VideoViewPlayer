@@ -12,6 +12,8 @@
 		BC75E5122345213600ADC393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC75E5102345213600ADC393 /* Main.storyboard */; };
 		BC75E5142345213700ADC393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC75E5132345213700ADC393 /* Assets.xcassets */; };
 		BC75E5172345213700ADC393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC75E5152345213700ADC393 /* LaunchScreen.storyboard */; };
+		BC75E51F234521AC00ADC393 /* VideoViewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75E51E234521AC00ADC393 /* VideoViewPlayer.swift */; };
+		BC75E52123452AFB00ADC393 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = BC75E52023452AFB00ADC393 /* demo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BC75E5132345213700ADC393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC75E5162345213700ADC393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC75E5182345213700ADC393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC75E51E234521AC00ADC393 /* VideoViewPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewPlayer.swift; sourceTree = "<group>"; };
+		BC75E52023452AFB00ADC393 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		BC75E50B2345213600ADC393 /* VideoViewPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				BC75E52023452AFB00ADC393 /* demo.mov */,
 				BC75E50C2345213600ADC393 /* AppDelegate.swift */,
 				BC75E50E2345213600ADC393 /* ViewController.swift */,
 				BC75E5102345213600ADC393 /* Main.storyboard */,
 				BC75E5132345213700ADC393 /* Assets.xcassets */,
 				BC75E5152345213700ADC393 /* LaunchScreen.storyboard */,
 				BC75E5182345213700ADC393 /* Info.plist */,
+				BC75E51E234521AC00ADC393 /* VideoViewPlayer.swift */,
 			);
 			path = VideoViewPlayer;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC75E5172345213700ADC393 /* LaunchScreen.storyboard in Resources */,
+				BC75E52123452AFB00ADC393 /* demo.mov in Resources */,
 				BC75E5142345213700ADC393 /* Assets.xcassets in Resources */,
 				BC75E5122345213600ADC393 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC75E50F2345213600ADC393 /* ViewController.swift in Sources */,
+				BC75E51F234521AC00ADC393 /* VideoViewPlayer.swift in Sources */,
 				BC75E50D2345213600ADC393 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8649VR3R2;
 				INFOPLIST_FILE = VideoViewPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8649VR3R2;
 				INFOPLIST_FILE = VideoViewPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

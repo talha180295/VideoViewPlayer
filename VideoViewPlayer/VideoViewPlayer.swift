@@ -10,7 +10,7 @@ import UIKit
 import AVKit
 import AVFoundation
 
-class VideoViewPlayer: UIView {
+public class VideoViewPlayer: UIView {
 
     
     

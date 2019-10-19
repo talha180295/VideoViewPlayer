@@ -23,7 +23,10 @@ class ViewController: UIViewController {
         }
         self.videoView.configure(videoURL: path)
         self.videoView.isLoop = true
-        self.videoView.play()    }
+        self.videoView.play()
+        
+        
+    }
     
 
 

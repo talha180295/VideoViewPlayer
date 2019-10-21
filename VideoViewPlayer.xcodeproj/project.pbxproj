@@ -293,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8649VR3R2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoViewPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8649VR3R2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoViewPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

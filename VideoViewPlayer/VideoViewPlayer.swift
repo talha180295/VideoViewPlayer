@@ -16,7 +16,9 @@ public class VideoViewPlayer: UIView {
     
     var playerLayer: AVPlayerLayer?
     var player: AVPlayer?
-    var isLoop: Bool = false
+    public var isLoop: Bool = false
+    var url : URL?
+    
     
     
     override init(frame: CGRect) {
@@ -31,7 +33,24 @@ public class VideoViewPlayer: UIView {
         
     }
     
-    func configure(videoURL: String) {
+//    init(url : URL)
+//    {
+//        
+//       
+//        player = AVPlayer.init(url: url)
+//        playerLayer = AVPlayerLayer(player: player)
+//        playerLayer?.frame = bounds
+//        playerLayer?.videoGravity = AVLayerVideoGravity.resize
+//        if let playerLayer = self.playerLayer {
+//            layer.addSublayer(playerLayer)
+//        }
+//        NotificationCenter.default.addObserver(self, selector: #selector(reachTheEndOfTheVideo(_:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: self.player?.currentItem)
+//    }
+    
+   
+    
+    
+    public func configure(videoURL: String) {
         
         print("configure")
         player = AVPlayer(url: URL(fileURLWithPath: videoURL))
@@ -45,18 +64,18 @@ public class VideoViewPlayer: UIView {
         
     }
     
-    func play() {
+   public func play() {
         if player?.timeControlStatus != AVPlayer.TimeControlStatus.playing {
             player?.play()
         }
     }
     
-    func pause() {
+    public func pause() {
         player?.pause()
         
     }
     
-    func stop() {
+    public func stop() {
         player?.pause()
         player?.seek(to: CMTime.zero)
         
